@@ -1,0 +1,179 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 14,
+      "physical": 35
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 9,
+        "total": 27,
+        "identifiers": [
+          "var",
+          "=",
+          "()",
+          "function",
+          "[]",
+          ".",
+          "return",
+          "{}",
+          ":"
+        ]
+      },
+      "operands": {
+        "distinct": 26,
+        "total": 39,
+        "identifiers": [
+          "\"use strict\"",
+          "jscs",
+          "\"gulp-jscs\"",
+          "require",
+          "gulp",
+          null,
+          "config",
+          "jscsSetup",
+          "gulpRef",
+          "conf",
+          "\"jscs\"",
+          0,
+          "<anonymous>",
+          "\"soften\"",
+          "jscsTask",
+          "task",
+          "preset",
+          "\"google\"",
+          "maximumLineLength",
+          120,
+          "requireCamelCaseOrUpperCaseIdentifiers",
+          "\"ignoreProperties\"",
+          "src",
+          "pipe",
+          "module",
+          "exports"
+        ]
+      },
+      "length": 66,
+      "vocabulary": 35,
+      "difficulty": 6.75,
+      "volume": 338.53267911836775,
+      "effort": 2285.0955840489823,
+      "bugs": 0.11284422637278925,
+      "time": 126.94975466938791
+    },
+    "params": 2,
+    "line": 1,
+    "cyclomaticDensity": 7.142857142857142
+  },
+  "functions": [
+    {
+      "name": "jscsSetup",
+      "sloc": {
+        "logical": 3,
+        "physical": 7
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 4,
+          "total": 5,
+          "identifiers": [
+            "=",
+            "()",
+            "[]",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 10,
+          "total": 13,
+          "identifiers": [
+            "gulpRef",
+            "conf",
+            "gulp",
+            "config",
+            "\"jscs\"",
+            0,
+            "<anonymous>",
+            "\"soften\"",
+            "jscsTask",
+            "task"
+          ]
+        },
+        "length": 18,
+        "vocabulary": 14,
+        "difficulty": 2.6,
+        "volume": 68.53238859703687,
+        "effort": 178.18421035229588,
+        "bugs": 0.022844129532345624,
+        "time": 9.89912279734977
+      },
+      "params": 2,
+      "line": 14,
+      "cyclomaticDensity": 33.33333333333333
+    },
+    {
+      "name": "jscsTask",
+      "sloc": {
+        "logical": 4,
+        "physical": 9
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 5,
+          "total": 11,
+          "identifiers": [
+            "return",
+            "()",
+            "{}",
+            ":",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 12,
+          "total": 13,
+          "identifiers": [
+            "<anonymous>",
+            "preset",
+            "\"google\"",
+            "maximumLineLength",
+            120,
+            "requireCamelCaseOrUpperCaseIdentifiers",
+            "\"ignoreProperties\"",
+            "jscs",
+            "config",
+            "src",
+            "gulp",
+            "pipe"
+          ]
+        },
+        "length": 24,
+        "vocabulary": 17,
+        "difficulty": 2.708333333333333,
+        "volume": 98.09910819000817,
+        "effort": 265.6850846812721,
+        "bugs": 0.03269970273000272,
+        "time": 14.760282482292894
+      },
+      "params": 0,
+      "line": 25,
+      "cyclomaticDensity": 25
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 2,
+      "path": "gulp-jscs",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 77.32695332987578,
+  "params": 1,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.0",
+    "fileName": "lib/index.js"
+  }
+}
